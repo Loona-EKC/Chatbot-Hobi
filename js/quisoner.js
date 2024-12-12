@@ -82,6 +82,8 @@ function submitTest() {
         <p><strong>Hobi Potensial:</strong> ${result.hobi.join(", ")}</p>
         <p><strong>Bakat Tersarankan:</strong> ${result.bakat.join(", ")}</p>
         <p>Berdasarkan jawaban Anda, Anda memiliki potensi untuk mengembangkan keterampilan di bidang ${result.title.toLowerCase()}. Jelajahi hobi dan bakat yang disebutkan untuk mengembangkan potensi diri Anda!</p>
+        <br>
+        <p>Apakah kurang puas dengan hasilnya? Jika ya klik next<p>
     `;
 
     document.getElementById('quiz').style.display = 'none';
