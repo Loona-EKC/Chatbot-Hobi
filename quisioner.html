@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tes Pencarian Hobi dan Bakat</title>
+    <link rel="stylesheet" href="css/quisoner.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tes Pencarian Hobi dan Bakat</h1>
+        <div id="quiz">
+            <div class="question" id="q1">
+                <h3>1. Dalam situasi sulit, Anda cenderung:</h3>
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q1" value="analitis"> Menganalisis masalah secara sistematis
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="kreatif"> Mencari solusi inovatif
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="sosial"> Berkonsultasi dengan orang lain
+                    </label>
+                </div>
+            </div>
+
+            <div class="question" id="q2">
+                <h3>2. Waktu luang Anda paling suka dihabiskan dengan:</h3>
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q2" value="teknis"> Mempelajari teknologi baru
+                    </label>
+                    <label>
+                        <input type="radio" name="q2" value="seni"> Berkarya seni
+                    </label>
+                    <label>
+                        <input type="radio" name="q2" value="olahraga"> Berolahraga
+                    </label>
+                </div>
+            </div>
+
+            <div class="question" id="q3">
+                <h3>3. Anda lebih nyaman:</h3>
+                <div class="options">
+                    <label>
+                        <input type="radio" name="q3" value="individu"> Bekerja sendiri
+                    </label>
+                    <label>
+                        <input type="radio" name="q3" value="tim"> Bekerja dalam tim
+                    </label>
+                    <label>
+                        <input type="radio" name="q3" value="memimpin"> Memimpin kelompok
+                    </label>
+                </div>
+            </div>
+
+            <button onclick="submitTest()">Lihat Hasil</button>
+        </div>
+
+        <div id="result" style="display:none;">
+            <h2>Hasil Pencarian Hobi dan Bakat</h2>
+            <p id="resultText"></p>
+        </div>
+    </div>
+    <script src="js/quisoner.js"></script>
+</body>
+</html>

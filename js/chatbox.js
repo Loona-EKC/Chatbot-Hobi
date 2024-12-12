@@ -19,7 +19,8 @@ const hobbies = [
     { hobby: "Melukis Digital", keywords: ["digital", "tablet", "stylus", "menggambar", "desain"] },
     { hobby: "Menulis", keywords: ["cerita", "novel", "puisi", "karya", "jurnal"] },
     { hobby: "Bersepeda", keywords: ["sepeda", "bersepeda", "olah raga", "fitness", "jalan-jalan"] },
-    { hobby: "Bermain Musik", keywords: ["musik", "gitar", "piano", "drum", "alat musik"] }
+    { hobby: "Bermain Musik", keywords: ["musik", "gitar", "piano", "drum", "alat musik"] },
+    { hobby: "Ih Wibu", keywords: ["anime"] }
 ];
 
 // Fungsi untuk menampilkan pesan bot
