@@ -20,7 +20,18 @@ const hobbies = [
     { hobby: "Menulis", keywords: ["cerita", "novel", "puisi", "karya", "jurnal"] },
     { hobby: "Bersepeda", keywords: ["sepeda", "bersepeda", "olah raga", "fitness", "jalan-jalan"] },
     { hobby: "Bermain Musik", keywords: ["musik", "gitar", "piano", "drum", "alat musik"] },
-    { hobby: "Ih Wibu", keywords: ["anime"] }
+    { hobby: "Memancing", keywords: ["pancing", "ikan", "kail", "memancing", "umpan"] },
+    { hobby: "Membuat Kerajinan", keywords: ["kerajinan", "craft", "kreativitas", "kertas", "dekorasi"] },
+    { hobby: "Menulis Blog", keywords: ["blog", "artikel", "jurnal", "website", "konten"] },
+    { hobby: "Bermain Game", keywords: ["game", "gaming", "konsol", "permainan", "video game", "online"] },
+    { hobby: "Berenang", keywords: ["berenang", "kolam", "air", "renang", "rekreasi"] },
+    { hobby: "Yoga", keywords: ["yoga", "meditasi", "stretching", "relaksasi", "tenang"] },
+    { hobby: "Mendaki Gunung", keywords: ["mendaki", "gunung", "petualangan", "hiking", "alam"] },
+    { hobby: "Camping", keywords: ["camping", "berkemah", "tenda", "alam", "hutan", "api unggun"] },
+    { hobby: "Membuat Animasi", keywords: ["animasi", "video", "kartun", "desain", "grafik"] },
+    { hobby: "Memprogram", keywords: ["kode", "pemrograman", "program", "komputer", "coding"] },
+    { hobby: "Belajar Bahasa Baru", keywords: ["bahasa", "kosakata", "frasa", "belajar", "internasional"] },
+    { hobby: "Melakukan Olahraga", keywords: ["lari", "senam", "fitness", "kesehatan", "atletik"] }
 ];
 
 // Fungsi untuk menampilkan pesan bot
