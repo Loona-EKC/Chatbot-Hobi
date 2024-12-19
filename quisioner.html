@@ -7,63 +7,94 @@
     <link rel="stylesheet" href="css/quisoner.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Tes Pencarian Hobi dan Bakat</h1>
-        <div id="quiz">
-            <div class="question" id="q1">
-                <h3>1. Dalam situasi sulit, Anda cenderung:</h3>
-                <div class="options">
-                    <label>
-                        <input type="radio" name="q1" value="analitis"> Menganalisis masalah secara sistematis
-                    </label>
-                    <label>
-                        <input type="radio" name="q1" value="kreatif"> Mencari solusi inovatif
-                    </label>
-                    <label>
-                        <input type="radio" name="q1" value="sosial"> Berkonsultasi dengan orang lain
-                    </label>
+    <body>
+        <div class="container">
+            <h1>Tes Pencarian Hobi dan Bakat</h1>
+            <div id="quiz">
+                <div class="question" id="q1">
+                    <h3>1. Dalam situasi sulit, Anda cenderung:</h3>
+                    <div class="options">
+                        <label>
+                            <input type="radio" name="q1" value="analitis"> Menganalisis masalah secara sistematis
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="kreatif"> Mencari solusi inovatif
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="sosial"> Berkonsultasi dengan orang lain
+                        </label>
+                    </div>
                 </div>
-            </div>
-
-            <div class="question" id="q2">
-                <h3>2. Waktu luang Anda paling suka dihabiskan dengan:</h3>
-                <div class="options">
-                    <label>
-                        <input type="radio" name="q2" value="teknis"> Mempelajari teknologi baru
-                    </label>
-                    <label>
-                        <input type="radio" name="q2" value="seni"> Berkarya seni
-                    </label>
-                    <label>
-                        <input type="radio" name="q2" value="olahraga"> Berolahraga
-                    </label>
+    
+                <div class="question" id="q2">
+                    <h3>2. Waktu luang Anda paling suka dihabiskan dengan:</h3>
+                    <div class="options">
+                        <label>
+                            <input type="radio" name="q2" value="teknis"> Mempelajari teknologi baru
+                        </label>
+                        <label>
+                            <input type="radio" name="q2" value="seni"> Berkarya seni
+                        </label>
+                        <label>
+                            <input type="radio" name="q2" value="olahraga"> Berolahraga
+                        </label>
+                    </div>
                 </div>
-            </div>
-
-            <div class="question" id="q3">
-                <h3>3. Anda lebih nyaman:</h3>
-                <div class="options">
-                    <label>
-                        <input type="radio" name="q3" value="individu"> Bekerja sendiri
-                    </label>
-                    <label>
-                        <input type="radio" name="q3" value="tim"> Bekerja dalam tim
-                    </label>
-                    <label>
-                        <input type="radio" name="q3" value="memimpin"> Memimpin kelompok
-                    </label>
+    
+                <div class="question" id="q3">
+                    <h3>3. Anda lebih nyaman:</h3>
+                    <div class="options">
+                        <label>
+                            <input type="radio" name="q3" value="individu"> Bekerja sendiri
+                        </label>
+                        <label>
+                            <input type="radio" name="q3" value="tim"> Bekerja dalam tim
+                        </label>
+                        <label>
+                            <input type="radio" name="q3" value="memimpin"> Memimpin kelompok
+                        </label>
+                    </div>
                 </div>
+    
+                <div class="question" id="q4">
+                    <h3>4. Hal yang paling Anda sukai adalah:</h3>
+                    <div class="options">
+                        <label>
+                            <input type="radio" name="q4" value="berpikir"> Berpikir logis dan sistematis
+                        </label>
+                        <label>
+                            <input type="radio" name="q4" value="bergerak"> Bergerak dan beraktivitas fisik
+                        </label>
+                        <label>
+                            <input type="radio" name="q4" value="berinteraksi"> Berinteraksi dengan banyak orang
+                        </label>
+                    </div>
+                </div>
+    
+                <div class="question" id="q5">
+                    <h3>5. Anda merasa paling bahagia ketika:</h3>
+                    <div class="options">
+                        <label>
+                            <input type="radio" name="q5" value="menciptakan"> Menciptakan sesuatu yang baru
+                        </label>
+                        <label>
+                            <input type="radio" name="q5" value="menyelesaikan"> Menyelesaikan tugas dengan sempurna
+                        </label>
+                        <label>
+                            <input type="radio" name="q5" value="membantu"> Membantu orang lain
+                        </label>
+                    </div>
+                </div>
+    
+                <button onclick="submitTest()">Lihat Hasil</button>
             </div>
-
-            <button onclick="submitTest()">Lihat Hasil</button>
+    
+            <div id="result" style="display:none;">
+                <h2>Hasil Pencarian Hobi dan Bakat</h2>
+                <p id="resultText"></p>
+                <button onclick="window.location.href='chatbox.html'">Lanjutkan</button>
+            </div>
         </div>
-
-        <div id="result" style="display:none;">
-            <h2>Hasil Pencarian Hobi dan Bakat</h2>
-            <p id="resultText"></p>
-            <a class="btn btn-primary" href="chatbox.html" role="button">Next</a>
-        </div>
-    </div>
     <script src="js/quisoner.js"></script>
 </body>
 </html>
