@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-image: url('luffy.jpg') ;
+  }
+  
+  
+  .title {
+    font-size: 1.5rem;
+    color: #00FFFF;
+    font-weight: bold;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('semi.jpg'); /* Ganti nama file jika perlu */
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px; /* Tambahkan padding untuk memberi ruang bagi header */
+  }
+  
+  .content {
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    color: #FFFFF0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #6495ED;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FFF8DC;
+    color: #000;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #444;
+  }
