@@ -36,7 +36,8 @@ function submitTest() {
 
     document.getElementById('resultText').innerHTML = 
         `Berdasarkan jawaban Anda, kami merekomendasikan hobi: <strong>${recommendedHobbies}</strong>. 
-        Hobi ini cocok dengan kepribadian dan minat Anda.`;
+        Hobi ini cocok dengan kepribadian dan minat Anda.
+        Belum cocok? Klik "Selanjutnya"! Sudah pas? Klik "Kembali" ke beranda.`;
 
     document.getElementById('quiz').style.display = 'none';
     document.getElementById('result').style.display = 'block';
