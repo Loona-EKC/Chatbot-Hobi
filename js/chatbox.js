@@ -4,7 +4,7 @@ const sendBtn = document.getElementById('send');
 
 // Data Hobi dengan kata kunci
 const hobbies = [
-    { hobby: "Melukis", keywords: ["lukis", "cat", "kanvas", "seni", "menggambar", "gambar", "canvas"] },
+    { hobby: "Melukis", keywords: ["mewarnai", "cat", "kanvas", "seni", "menggambar", "gambar", "canvas"] },
     { hobby: "Fotografi", keywords: ["foto", "kamera", "memotret", "lanskap", "portrait", "lensa"] },
     { hobby: "Bernyanyi", keywords: ["nyanyi", "lagu", "musik", "karaoke", "nada"] },
     { hobby: "Editing Video", keywords: ["edit", "video", "transisi", "efek", "rendering"] },
@@ -31,7 +31,8 @@ const hobbies = [
     { hobby: "Membuat Animasi", keywords: ["animasi", "video", "kartun", "desain", "grafik"] },
     { hobby: "Memprogram", keywords: ["kode", "pemrograman", "program", "komputer", "coding"] },
     { hobby: "Belajar Bahasa Baru", keywords: ["bahasa", "kosakata", "frasa", "belajar", "internasional"] },
-    { hobby: "Melakukan Olahraga", keywords: ["lari", "senam", "fitness", "kesehatan", "atletik"] }
+    { hobby: "Melakukan Olahraga", keywords: ["lari", "senam", "fitness", "kesehatan", "atletik"] },
+    { hobby: "Balapan", keywords: ["motor", "mobil"] }
 ];
 
 // Fungsi untuk menampilkan pesan bot
