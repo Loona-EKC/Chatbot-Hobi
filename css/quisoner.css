@@ -4,10 +4,10 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: yellow;
+    background-image: url('/picture/tes.jpg');
 }
 .container {
-    background-color: lightgreen;
+    background-color: #b0e0e6;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -22,7 +22,7 @@ body {
 .options label {
     margin: 10px 0;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -33,12 +33,12 @@ body {
 #result {
     margin-top: 20px;
     padding: 20px;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 button {
-    background-color: red;
-    color: white;
+    background-color: #d3d3d3;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;

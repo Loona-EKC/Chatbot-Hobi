@@ -158,3 +158,34 @@ body {
         transform: scale(1);
     }
 }
+
+
+.home {
+    text-align: center; /* Menempatkan tombol di tengah */
+    margin-bottom: 4px;   /* Memberikan jarak dari atas */
+    margin-top : 4px;
+    border-radius: 5px; 
+}
+
+/* Styling untuk tombol kembali */
+.home button {
+    background: linear-gradient(270deg, rgba(203,157,240,1) 0%, rgba(240,193,225,1) 27%, rgba(253,219,187,1) 49%, rgba(255,249,191,1) 91%);
+    background-size: 300% 200%;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    border-radius: 10px;
+    padding: 15px;
+    overflow: hidden;
+    animation: GradientShift 10s ease infinite;
+}
+
+/* Efek saat tombol di-hover */
+.home button:hover {
+    background-color: #45a049;     /* Warna latar belakang tombol saat hover */
+    transform: translateY(-3px);    /* Efek sedikit terangkat saat di-hover */
+}
+
+/* Efek saat tombol di-klik (active) */
+.home button:active {
+    transform: translateY(0);       /* Menurunkan kembali posisi tombol saat di-klik */
+}
