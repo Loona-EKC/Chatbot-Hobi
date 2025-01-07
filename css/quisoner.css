@@ -4,10 +4,10 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: yellow;
 }
 .container {
-    background-color: white;
+    background-color: lightgreen;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -33,11 +33,11 @@ body {
 #result {
     margin-top: 20px;
     padding: 20px;
-    background-color: #e9f5e9;
+    background-color: yellow;
     border-radius: 10px;
 }
 button {
-    background-color: #4CAF50;
+    background-color: red;
     color: white;
     border: none;
     padding: 10px 20px;
