@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-image: url('wall.jpg'); /* Wallpaper */
+  background-image: url('/picture/wall.jpg'); /* Wallpaper */
   background-size: cover;
   background-position: center;
   display: flex;
